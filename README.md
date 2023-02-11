@@ -1,8 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Juego de Reciclaje
 
-## Getting Started
+Este juego te permite aprender sobre los diferentes tipos de residuos y cómo clasificarlos correctamente.
 
-First, run the development server:
+## Cómo jugar
+
+1. Haz clic en un elemento de residuo para ver su información.
+2. Observa el residuo y trata de identificar a qué categoría pertenece.
+3. Sigue intentando hasta conseguir 10 puntos y ganar. Si te equivocas 3 veces perderás.
+
+## Objetivo
+
+El objetivo del juego es clasificar todos los elementos de residuo en su categoría correspondiente.
+
+## Tecnologías utilizadas
+
+Este juego está desarrollado en Next.js, un marco de JavaScript para aplicaciones web basadas en React. También se utiliza CSS para estilizar la apariencia del juego.
+
+## Iniciar el proyecto
+
+Para iniciar este proyecto en tu entorno local, sigue los siguientes pasos:
+
+1. Clona el repositorio en tu sistema:
+2. Ejecuta el servidor de desarrollo
+
 
 ```bash
 npm run dev
@@ -15,12 +35,6 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
