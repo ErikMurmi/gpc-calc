@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useRouter } from 'next/router';
 import { getRandomItems } from '../data/watastedItems';
 
@@ -34,10 +34,6 @@ const Home = () => {
     setSelectedCategory(null);
     setSelectedWasteItem(null)
   };
-
-  useEffect(()=>{
-    console.log(wasteItems)
-  },[])
 
   return (
     <div className='playa'>
