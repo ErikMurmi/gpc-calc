@@ -6,7 +6,7 @@ import styles from '@/styles/Home.module.css'
 const inter = Inter({ subsets: ['latin'] })
 let kg = 0;
 let personas = 1;
-
+//Comment
 
 const handleSubmit = (e) =>{
   e.preventDefault();
